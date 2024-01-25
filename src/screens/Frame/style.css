@@ -1,0 +1,233 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame .div {
+    background-color: #ffffff;
+    height: 638px;
+    position: relative;
+    width: 1708px;
+  }
+  
+  .frame .overlap {
+    height: 170px;
+    left: 144px;
+    position: absolute;
+    top: 280px;
+    width: 229px;
+  }
+  
+  .frame .arrow {
+    height: 96px;
+    left: 98px;
+    position: absolute;
+    top: 0;
+    width: 130px;
+  }
+  
+  .frame .vector {
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 70px;
+    width: 100px;
+  }
+  
+  .frame .img {
+    height: 30px;
+    left: 35px;
+    position: absolute;
+    top: 86px;
+    width: 30px;
+  }
+  
+  .frame .step-set-your-goal {
+    color: #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 119px;
+    width: 120px;
+  }
+  
+  .frame .overlap-group {
+    height: 207px;
+    left: 477px;
+    position: absolute;
+    top: 177px;
+    width: 488px;
+  }
+  
+  .frame .frame-wrapper {
+    background-image: url(https://c.animaapp.com/qEodK6vH/img/vector-5.svg);
+    background-size: 100% 100%;
+    height: 100px;
+    left: 145px;
+    position: absolute;
+    top: 107px;
+    width: 100px;
+  }
+  
+  .frame .div-2 {
+    background-image: url(https://c.animaapp.com/qEodK6vH/img/vector-5.svg);
+    background-size: 100% 100%;
+    height: 100px;
+    position: relative;
+    
+  }
+  
+  .frame .img-2 {
+    height: 32px;
+    left: 35px;
+    position: absolute;
+    top: 10px;
+    width: 30px;
+  }
+  
+  .frame .step-pay-amount-on {
+    color: #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    width: 80px;
+    
+  }
+  
+  .frame .img-3 {
+    height: 163px;
+    left: 0;
+    position: absolute;
+    top: 24px;
+    width: 159px;
+  }
+  
+  .frame .div-3 {
+    background-image: url(https://c.animaapp.com/qEodK6vH/img/clip-path-group@2x.png);
+    background-size: 100% 100%;
+    height: 100px;
+    left: 388px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    
+  }
+  
+  .frame .img-4 {
+    height: 73px;
+    left: -106px;
+    position: absolute;
+    top: 394px;
+    width: 239px;
+  }
+  
+  .frame .vector-2 {
+    height: 30px;
+    left: 32px;
+    position: absolute;
+    top: 9px;
+    width: 30px;
+  }
+  
+  .frame .step-earn-rewards {
+    color: #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    width: 51px;
+  }
+  
+  .frame .img-5 {
+    height: 80px;
+    left: 243px;
+    position: absolute;
+    top: 91px;
+    width: 167px;
+  }
+  
+  .frame .div-4 {
+    background-image: url(https://c.animaapp.com/qEodK6vH/img/vector-5.svg);
+    background-size: 100% 100%;
+    height: 100px;
+    left: 377px;
+    overflow: hidden;
+    position: absolute;
+    top: 236px;
+    width: 100px;
+  }
+  
+  .frame .vector-3 {
+    height: 29px;
+    left: 35px;
+    position: absolute;
+    top: 12px;
+    width: 31px;
+  }
+  
+  .frame .step-create-or {
+    color: #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    width: 89px;
+  }
+
+  .slide-up{
+  animation: slide-up 2s cubic-bezier(0.65, 0, 0.35, 1) both
+  }
+@keyframes slide-up{
+  0%{transform: translateY(100px)}
+    
+  100%{transform: translateY(0)}
+    
+  }
+  .slide-right {
+    animation: 3s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  .slide-left {
+    animation: 3s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
